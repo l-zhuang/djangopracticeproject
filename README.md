@@ -10,3 +10,10 @@
 - python3.11 -m ensurepip
 - python3.11 -m pip install Django
 - django-admin startproject customer360
+
+## To create virtual environment
+- pip install --upgrade distro-info
+- pip3 install --upgrade pip==23.2.1
+- pip install virtualenv
+- virtualenv djangoenv
+- source djangoenv/bin/activate
