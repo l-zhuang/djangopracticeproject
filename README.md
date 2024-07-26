@@ -1,4 +1,4 @@
-# A communication record stores Channel, Direction (inbound or outbound) and Summary
+# Django Web App - A communication record stores Channel, Direction (inbound or outbound) and Summary
 
 ## Apply model change and run the server
 - python3.11 manage.py makemigrations customer360
@@ -7,6 +7,6 @@
 
 
 ## Ensure Pip in installed and install Django
-  python3.11 -m ensurepip
-  python3.11 -m pip install Django
-  django-admin startproject customer360
+- python3.11 -m ensurepip
+- python3.11 -m pip install Django
+- django-admin startproject customer360
